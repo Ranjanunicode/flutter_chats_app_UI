@@ -19,84 +19,84 @@ class Message {
 // Users
 final User currentuser = User(
   id: 0,
-  name: 'Ranjan',
-  imageUrl: "assets/images/Ranjan.jpg",
+  name: 'user1',
+  imageUrl: "assets/images/img0.jpg",
 );
 
-final User bijay = User(
+final User user1 = User(
   id: 1,
-  name: 'Bijay',
-  imageUrl: "assets/images/bijay.jpg",
+  name: 'user2',
+  imageUrl: "assets/images/img1.jpg",
 );
-final User jeevan = User(
+final User user2 = User(
   id: 2,
-  name: 'Jeevan',
-  imageUrl: "assets/images/jeevan.jpg",
+  name: 'user3',
+  imageUrl: "assets/images/img2.jpg",
 );
-final User norden = User(
+final User user3 = User(
   id: 3,
-  name: 'Norden',
-  imageUrl: "assets/images/norden.jpg",
+  name: 'user4',
+  imageUrl: "assets/images/img3.jpg",
 );
-final User rahul = User(
+final User user4 = User(
   id: 4,
-  name: 'Rahul',
-  imageUrl: "assets/images/rahul.jpg",
+  name: 'user5',
+  imageUrl: "assets/images/img4.jpg",
 );
-final User raunak = User(
+final User user5 = User(
   id: 5,
-  name: 'Raunak',
-  imageUrl: "assets/images/raunak.jpg",
+  name: 'user6',
+  imageUrl: "assets/images/img5.jpg",
 );
-final User vikash = User(
+final User user6 = User(
   id: 5,
-  name: 'Vikash',
-  imageUrl: "assets/images/vikash.jpg",
+  name: 'user7',
+  imageUrl: "assets/images/img6.jpg",
 );
 
 //favourite contact
-List<User> favourites = [bijay, jeevan, norden, rahul, raunak, vikash];
+List<User> favourites = [user1, user2, user3, user4, user5, user6];
 
 //Example chats on home screen
 
 List<Message> chats = [
   Message(
-    sender: bijay,
+    sender: user1,
     time: '18:38',
     text: 'phone pe call kr.. Whatsapp nahi',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: jeevan,
+    sender: user2,
     time: '18:38',
     text: 'oii..kya kr raha hai',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: norden,
+    sender: user3,
     time: '4:30',
     text: 'bhai college band he rahega',
     isLiked: true,
     unread: false,
   ),
   Message(
-    sender: rahul,
+    sender: user4,
     time: '15:30',
     text: 'pubg ban ho raha hai bhai',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: raunak,
+    sender: user5,
     time: '13:30',
     text: 'ha bhai tera app sahi hai',
     isLiked: true,
     unread: false,
   ),
   Message(
-    sender: vikash,
+    sender: user6,
     time: '13:18',
     text: 'Site me social networking',
     isLiked: true,
@@ -107,7 +107,7 @@ List<Message> chats = [
 
 List<Message> messages = [
   Message(
-    sender: bijay,
+    sender: user1,
     time: '18:38',
     text: 'phone pe call kr.. Whatsapp nahi',
     isLiked: false,
@@ -121,7 +121,7 @@ List<Message> messages = [
     unread: true,
   ),
   Message(
-    sender: vikash,
+    sender: user6,
     time: '13:18',
     text: 'Site me social networking ka link update kr..',
     isLiked: true,
@@ -135,14 +135,14 @@ List<Message> messages = [
     unread: true,
   ),
   Message(
-    sender: raunak,
+    sender: user3,
     time: '13:30',
     text: 'ha bhai tera app sahi kam kr raha hai..',
     isLiked: true,
     unread: false,
   ),
   Message(
-    sender: norden,
+    sender: user4,
     time: '4:30',
     text: 'bhai college band he rahega..',
     isLiked: true,
