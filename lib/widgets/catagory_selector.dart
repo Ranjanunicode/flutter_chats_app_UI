@@ -1,3 +1,4 @@
+// category section
 import 'package:flutter/material.dart';
 
 class CatagorySelector extends StatefulWidget {
